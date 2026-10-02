@@ -17,5 +17,11 @@ Upload the contents of this folder to the root of the branch/folder used by GitH
 Nine additional plays can now be returned as quiz results: Timon of Athens, All’s Well That Ends Well, The Merry Wives of Windsor, The Two Gentlemen of Verona, Henry VI, Henry VIII, King John, Pericles, and Cymbeline. Their approved individual artwork is bundled locally. The quiz now has 33 possible play recommendations.
 
 
-## v7 sharing
+## v8 sharing
 Adds Share Result using the Web Share API with clipboard fallback. Compact `?r=` payloads store only local play indexes (base-36) for the main result and three close matches; no server or database is required. Shared links reconstruct the result locally. `#r=` and `#result=` are accepted for backwards compatibility. Runtime filenames are versioned to reduce stale GitHub Pages/browser caching.
+
+
+## v8 fixes
+- Fixed top navigation event routing.
+- Shared-result URLs now use a compact hash payload (`#r=...`) so static hosts such as GitHub Pages do not need to preserve query parameters.
+- Shared links still reconstruct the result entirely in the browser.
