@@ -15,3 +15,7 @@ Open `index.html` directly in a browser, or run any simple local static server i
 
 ## GitHub Pages
 Upload the contents of this folder to the root of your Pages branch/repository. No build step is required.
+
+
+## v3 artwork
+This build bundles individual illustrated artwork files in `assets/plays/` and displays them for the primary result, close matches and the All Plays catalogue. No external image hosting is required.
