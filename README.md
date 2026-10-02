@@ -19,3 +19,9 @@ Upload the contents of this folder to the root of your Pages branch/repository. 
 
 ## v3 artwork
 This build bundles individual illustrated artwork files in `assets/plays/` and displays them for the primary result, close matches and the All Plays catalogue. No external image hosting is required.
+
+## v4 artwork cleanup
+- Replaced the previous cropped artwork with 24 unique, local SVG illustrations.
+- Artwork files contain no play titles or genre labels.
+- The Taming of the Shrew now has its own falcon-themed artwork and no longer shares artwork with Much Ado About Nothing.
+- Titles and genres are rendered separately as accessible HTML.

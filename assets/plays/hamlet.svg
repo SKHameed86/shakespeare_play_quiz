@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <radialGradient id="paper"><stop offset="0" stop-color="#f5e5ba"/><stop offset=".75" stop-color="#e7ca8d"/><stop offset="1" stop-color="#c69b51"/></radialGradient>
+ <linearGradient id="metal" x2="1" y2="1"><stop stop-color="#f1cf72"/><stop offset=".45" stop-color="#d5bd84"/><stop offset="1" stop-color="#7a4d16"/></linearGradient>
+ <linearGradient id="field" y2="1"><stop stop-color="#4a3b32"/><stop offset="1" stop-color="#211514"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-opacity=".35"/></filter>
+</defs>
+<circle cx="256" cy="256" r="238" fill="url(#paper)" stroke="#5b3516" stroke-width="8"/>
+<circle cx="256" cy="256" r="218" fill="url(#field)" stroke="url(#metal)" stroke-width="14"/>
+<circle cx="256" cy="256" r="195" fill="none" stroke="#e6c56b" stroke-width="3" opacity=".75"/>
+<g fill="none" stroke="#caa24b" stroke-width="5" opacity=".75">
+ <path d="M75 300 C110 385 175 424 256 432 C337 424 402 385 437 300"/>
+ <path d="M75 212 C110 127 175 88 256 80 C337 88 402 127 437 212"/>
+</g>
+<g filter="url(#shadow)"><path d="M150 180 C155 100 355 100 362 190 C366 252 332 275 318 300 L310 370 L200 370 L193 300 C170 278 145 245 150 180Z" fill="#f5e6bd" stroke="#241713" stroke-width="10"/>
+<ellipse cx="210" cy="220" rx="38" ry="32" fill="#241713"/><ellipse cx="302" cy="220" rx="38" ry="32" fill="#241713"/>
+<path d="M256 240 l-22 55 h44Z" fill="#241713"/><path d="M210 322 H302 M225 322 V362 M250 322 V367 M277 322 V362" stroke="#241713" stroke-width="9"/></g></svg>

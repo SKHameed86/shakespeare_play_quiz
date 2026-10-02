@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <radialGradient id="paper"><stop offset="0" stop-color="#f5e5ba"/><stop offset=".75" stop-color="#e7ca8d"/><stop offset="1" stop-color="#c69b51"/></radialGradient>
+ <linearGradient id="metal" x2="1" y2="1"><stop stop-color="#f1cf72"/><stop offset=".45" stop-color="#d2a845"/><stop offset="1" stop-color="#7a4d16"/></linearGradient>
+ <linearGradient id="field" y2="1"><stop stop-color="#34475d"/><stop offset="1" stop-color="#211514"/></linearGradient>
+ <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="7" flood-opacity=".35"/></filter>
+</defs>
+<circle cx="256" cy="256" r="238" fill="url(#paper)" stroke="#5b3516" stroke-width="8"/>
+<circle cx="256" cy="256" r="218" fill="url(#field)" stroke="url(#metal)" stroke-width="14"/>
+<circle cx="256" cy="256" r="195" fill="none" stroke="#e6c56b" stroke-width="3" opacity=".75"/>
+<g fill="none" stroke="#caa24b" stroke-width="5" opacity=".75">
+ <path d="M75 300 C110 385 175 424 256 432 C337 424 402 385 437 300"/>
+ <path d="M75 212 C110 127 175 88 256 80 C337 88 402 127 437 212"/>
+</g>
+<g filter="url(#shadow)"><path d="M105 145 Q150 100 205 140 Q250 85 305 140 Q365 105 410 155 Q385 210 330 200 Q285 230 230 200 Q170 225 115 195Z" fill="#78879a"/>
+<path d="M245 185 L205 285 H255 L225 390 L330 250 H275 L305 185Z" fill="#f0d25d"/>
+<path d="M135 335 L160 245 L220 300 L256 225 L300 300 L360 245 L385 335Z" fill="url(#metal)" stroke="#241713" stroke-width="8"/></g></svg>
