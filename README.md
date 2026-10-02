@@ -1,27 +1,17 @@
-# Shakespeare Play Quiz
+# Shakespeare Play Quiz — v2
 
-A zero-dependency static personality quiz designed for GitHub Pages.
+A zero-dependency static quiz designed for GitHub Pages.
+
+## What changed in v2
+- Compatibility percentages removed.
+- Results now show each play’s genre.
+- Added a themed visual emblem for every play.
+- Added a richer Shakespearean results screen.
+- Added an **All Plays** catalogue with all 24 possible recommendations.
+- Preserved the 15-question scoring model from v1.
 
 ## Test locally
-Open `index.html` in a browser. No build step is required.
+Open `index.html` directly in a browser, or run any simple local static server in this folder.
 
-For a local HTTP server (optional):
-
-```bash
-python3 -m http.server 8000
-```
-
-Then visit `http://localhost:8000`.
-
-## Publish on GitHub Pages
-1. Create a repository and add `index.html`, `style.css`, and `script.js` to its root.
-2. In GitHub: **Settings → Pages**.
-3. Under **Build and deployment**, choose **Deploy from a branch**.
-4. Select your main branch and `/ (root)`, then save.
-
-## Structure
-- `index.html` — page shell
-- `style.css` — responsive styling
-- `script.js` — 15 questions, scoring, play profiles, and results
-
-The quiz stores no answers and uses no external libraries, fonts, analytics, cookies, or APIs.
+## GitHub Pages
+Upload the contents of this folder to the root of your Pages branch/repository. No build step is required.
